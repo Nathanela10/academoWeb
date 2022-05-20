@@ -1,0 +1,27 @@
+AcademoWeb
+
+Funcionalidad:
+Proyecto para prueba técnica que consta de un Login, un CreateUser, un Home y un Logout. Se hace uso de una API, un vídeo insertado desde una web, datos desde la localStorage y maquetación desde React.
+
+Login
+Se muestra un formulario que solicita un usuario y contraseña para avanzar al Home, además está la posibilidad de crear un nuevo usuario, pero al no utilizar una base de datos y utilizar el localStorage, este usuario una vez se salga, se eliminará.
+Las credenciales por defecto son: 
+Usuario: jonathanvra
+Contraseña: 123456
+Hay una serie de validaciones, la principal es que la contraseña debe tener un mínimo de 6 caracteres.
+
+CreateUser
+Al clickear en Quiero registrarme, te llevará a otra ruta donde se deberá llenar un formulario que consta de:
+Usuario,
+Primer nombre,
+Apellido,
+Contraseña, esta debe ser de más de 6 caracteres,
+Repetir contraseña, debe ser la misma que la anterior.
+Una vez validado que todos los campos están llenos y cumplen las condiciones se activará el botón Crear Usuario y te desplazará al Home, también está la opción de Iniciar sesión para devolvernos al Login.
+
+Home
+En esta página te encontrarás con un saludo que es personalizado, cambia dependiendo del nombre que ingreses en el formulario, a la vez explica que encontrarás en la página.
+Se reproducirá de manera automática un vídeo que trata sobre el tráiler de la película Avatar 2, y más abajo encontrarás un Input y un Button con la cual podrás hacer una búsqueda de imágenes con la API de Unsplash, al realizarla esta te generará 8 imágenes. 
+En la parte superior derecha encontrará un icono con la opción de salir, te dará una advertencia ya que, si sales, se eliminará el usuario siempre y cuando este no sea el dado por default.
+
+
