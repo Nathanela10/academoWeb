@@ -130,7 +130,7 @@ const CreateUser = () => {
                 { screenWidth > 1030 && <Title text='(Nuevo username)' /> }            
                     {//Label de username trayendo un component
                     }
-                    <Item text='Username' />
+                    <Item text='Usuario' />
                     {//Input de username trayendo un component
                     }
                     <Input 
@@ -195,7 +195,7 @@ const CreateUser = () => {
                     { errors.passwordAgainError && 
                         <ErrorNotification text="La contraseña no coincide" /> }
                     <Button 
-                        text='Crear username'
+                        text='Crear usuario'
                         handleOnClick={handleSubmit}
                         param={params}
                     />
