@@ -1,0 +1,33 @@
+* {
+    margin: auto;
+}
+
+.formCreateUser {
+    width: 85%;
+    padding: 50px;
+}
+
+@media screen and (min-width: 1030px) {
+    .createUserContent {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .CreateUserContainer {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .BackgroundWeb {
+        width: 60%;
+        height: 100%;
+        background-color: #0e0e1a;
+    } 
+}
